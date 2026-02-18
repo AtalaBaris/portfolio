@@ -9,46 +9,69 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
+    name: "Javascript",
+    description:
+      "Create interactive and dynamic web experiences with the versatile scripting language.",
+    rating: 5,
+    icon: Icons.javascript,
+  },
+  {
+    name: "React Native",
+    description:
+      "Developing cross-platform mobile applications, like my project DreamTales.",
+    rating: 5,
+    icon: Icons.react,
+  },
+
+  {
     name: "Next.js",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+      "Building high-performance, SEO-friendly web applications with React framework.",
     rating: 5,
     icon: Icons.nextjs,
   },
   {
-    name: "React",
+    name: "Tailwind CSS",
     description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+      "Crafting modern, responsive, and pixel-perfect user interfaces rapidly.",
     rating: 5,
-    icon: Icons.react,
+    icon: Icons.tailwindcss,
   },
+
   {
-    name: "GraphQL",
+    name: "Python",
     description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
+      "Writing efficient scripts for automation, data processing, and IoT systems.",
     rating: 5,
-    icon: Icons.express,
+    icon: Icons.javascript,
+  },
+  {
+    name: "Flutter",
+    description:
+      "Building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
+    rating: 5,
+    icon: Icons.react, // Icons.flutter yoksa geçici olarak Icons.react kalsın, ikonu sonra ekleriz
+  },
+  {
+    name: "Dart",
+    description:
+      "Developing fast, high-performance apps with a client-optimized language for multi-platform development.",
+    rating: 5,
+    icon: Icons.typescript, // Icons.dart yoksa geçici kalsın
   },
   {
     name: "Node.js",
     description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
+      "Creating scalable server-side applications and robust RESTful APIs.",
     rating: 5,
     icon: Icons.nodejs,
+  },
+  {
+    name: "IoT & Raspberry Pi",
+    description:
+      "Integrating hardware and software for smart systems like automated sorting.",
+    rating: 4,
+    icon: Icons.nextjs,
   },
   {
     name: "MongoDB",
@@ -58,19 +81,13 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.mongodb,
   },
   {
-    name: "Typescript",
+    name: "TypeScript",
     description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
+      "Enhancing code reliability and maintainability with static typing.",
     rating: 5,
     icon: Icons.typescript,
   },
-  {
-    name: "Javascript",
-    description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
-    icon: Icons.javascript,
-  },
+
   {
     name: "HTML 5",
     description:
@@ -85,13 +102,7 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.css3,
   },
-  {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
-    icon: Icons.react,
-  },
+
   {
     name: "Angular",
     description:
@@ -99,42 +110,7 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 3,
     icon: Icons.angular,
   },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
 
-  {
-    name: "Tailwind CSS",
-    description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
-    icon: Icons.tailwindcss,
-  },
-  {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
   {
     name: "Bootstrap",
     description:
@@ -148,13 +124,6 @@ export const skillsUnsorted: skillsInterface[] = [
       "Manage and organize relational databases efficiently for data-driven applications.",
     rating: 2,
     icon: Icons.mysql,
-  },
-  {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
-    icon: Icons.netlify,
   },
 ];
 
