@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Baris Atala | AtalaDev",
   authorName: "Barış Atala",
   username: "barisatala",
-  description: "Founder of AtalaDev | Freelance Full Stack Developer,",
+  description: "Founder of AtalaDev | Freelance Full Stack Developer",
   url: "https://ataladev.com",
   links: {
     twitter: "https://x.com/namanbarkiya",
